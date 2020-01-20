@@ -1,0 +1,19 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging D:\play-scala\AkkaIntro\target\scala-2.13\akka-quickstart-scala_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example\ActorQuickstart$WordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\play-scala\AkkaIntro\target\scala-2.13\classes\com\example\ActorQuickstart$WordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example\ActorQuickstart.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\play-scala\AkkaIntro\target\scala-2.13\classes\com\example\ActorQuickstart.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example\ActorQuickstart$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\play-scala\AkkaIntro\target\scala-2.13\classes\com\example\ActorQuickstart$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\play-scala\AkkaIntro\target\scala-2.13\classes\logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example\ActorQuickstart$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\play-scala\AkkaIntro\target\scala-2.13\classes\com\example\ActorQuickstart$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\play-scala\AkkaIntro\target\scala-2.13\classes\com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example\ActorQuickstart$WordCount$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\play-scala\AkkaIntro\target\scala-2.13\classes\com\example\ActorQuickstart$WordCount$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\play-scala\AkkaIntro\target\scala-2.13\classes\com\example[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
