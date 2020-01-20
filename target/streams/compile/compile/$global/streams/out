@@ -1,7 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0mD:\play-scala\AkkaIntro\src\main\scala\com\example\AkkaQuickstart.scala:19:12: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
-[0m[[0m[33mwarn[0m] [0m[0m      case msg => println("i cannot understand")[0m
-[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mD:\play-scala\AkkaIntro\src\main\scala\com\example\AkkaQuickstart.scala:20:33: unreachable code due to variable pattern 'msg' on line 19[0m
-[0m[[0m[33mwarn[0m] [0m[0m      case number:Int => println(s"i got numnber $number")[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
