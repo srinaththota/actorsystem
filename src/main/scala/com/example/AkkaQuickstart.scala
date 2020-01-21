@@ -17,8 +17,10 @@ object ActorQuickstart extends App{
 
       case SpecialMessage(contents)=>println(s"got message from case class $contents")
       case number:Int => println(s"i got numnber $number")
-      case msg => println("i cannot understand")
 
+      case sendMessagesToYourSelf(content) => self ! content
+
+      case msg => println("i cannot understand")
 
     }
   }
@@ -30,6 +32,7 @@ object ActorQuickstart extends App{
   wordCounter2 ! "I want to learn"
 
   case class SpecialMessage(contents:String)
+  case class sendMessagesToYourSelf(content:String)
   class Person(name:String) extends Actor{
     override def receive: Receive = {
       case "Hi"=>println("Print something")
@@ -41,5 +44,6 @@ object ActorQuickstart extends App{
 
   wordCounter2 ! SpecialMessage("some special message")
   wordCounter2 ! 50
+  wordCounter2 ! sendMessagesToYourSelf("Self messaqge")
 }
 

@@ -44,4 +44,10 @@ we can also send messages with method
 ex: specialMessages(content:String)  // it should be immutable , it should be serializable
 
 -----------------------------------
-we have keyword context where we can use it as this in java (context.self-->this in java)
+we have heavy weight data structure called context 
+it can be used to get the information to where the actor is running on --> context.system 
+context.self-->this in java
+
+self is implicitly final value of context.self
+sender is implicitly final value of context.sender
+
